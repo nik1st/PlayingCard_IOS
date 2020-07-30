@@ -13,6 +13,10 @@
 		1146A5B924C62464005C8605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1146A5B724C62464005C8605 /* Main.storyboard */; };
 		1146A5BB24C62469005C8605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1146A5BA24C62469005C8605 /* Assets.xcassets */; };
 		1146A5BE24C62469005C8605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1146A5BC24C62469005C8605 /* LaunchScreen.storyboard */; };
+		1146A5C824C6255F005C8605 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146A5C724C6255F005C8605 /* PlayingCard.swift */; };
+		1146A5CA24C62A8E005C8605 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146A5C924C62A8E005C8605 /* PlayingCardDeck.swift */; };
+		11AC645624D0B390003EAE72 /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AC645524D0B390003EAE72 /* CardBehavior.swift */; };
+		11E512D324C6BFE2007CD971 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E512D224C6BFE2007CD971 /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1146A5BA24C62469005C8605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1146A5BD24C62469005C8605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1146A5BF24C62469005C8605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1146A5C724C6255F005C8605 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		1146A5C924C62A8E005C8605 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		11AC645524D0B390003EAE72 /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
+		11E512D224C6BFE2007CD971 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		1146A5B024C62464005C8605 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				1146A5B124C62464005C8605 /* AppDelegate.swift */,
-				1146A5B324C62464005C8605 /* SceneDelegate.swift */,
+				1146A5C624C624E2005C8605 /* Supporting Files */,
 				1146A5B524C62464005C8605 /* ViewController.swift */,
 				1146A5B724C62464005C8605 /* Main.storyboard */,
+				1146A5C724C6255F005C8605 /* PlayingCard.swift */,
+				11E512D224C6BFE2007CD971 /* PlayingCardView.swift */,
+				1146A5C924C62A8E005C8605 /* PlayingCardDeck.swift */,
+				11AC645524D0B390003EAE72 /* CardBehavior.swift */,
 				1146A5BA24C62469005C8605 /* Assets.xcassets */,
-				1146A5BC24C62469005C8605 /* LaunchScreen.storyboard */,
 				1146A5BF24C62469005C8605 /* Info.plist */,
 			);
 			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		1146A5C624C624E2005C8605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1146A5B324C62464005C8605 /* SceneDelegate.swift */,
+				1146A5B124C62464005C8605 /* AppDelegate.swift */,
+				1146A5BC24C62469005C8605 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1146A5B624C62464005C8605 /* ViewController.swift in Sources */,
+				11E512D324C6BFE2007CD971 /* PlayingCardView.swift in Sources */,
 				1146A5B224C62464005C8605 /* AppDelegate.swift in Sources */,
+				1146A5CA24C62A8E005C8605 /* PlayingCardDeck.swift in Sources */,
+				1146A5C824C6255F005C8605 /* PlayingCard.swift in Sources */,
 				1146A5B424C62464005C8605 /* SceneDelegate.swift in Sources */,
+				11AC645624D0B390003EAE72 /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
